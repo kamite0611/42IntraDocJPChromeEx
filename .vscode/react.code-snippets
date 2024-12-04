@@ -1,0 +1,36 @@
+{
+  "Ts React FC": {
+    "scope": "typescriptreact",
+    "prefix": "fc",
+    "body": [
+      "import { ReactNode } from 'react';\n",
+      "export interface I${1:$TM_FILENAME_BASE}Props {",
+      "  children: ReactNode",
+      "}\n",
+      "export function $1({ children }: I$1Props) {",
+      "  return (",
+      "    <>",
+      "      {children}",
+      "    </>",
+      "  );",
+      "};\n"
+    ],
+    "description": "React関数コンポーネントの雛形"
+  },
+  "mui styled": {
+    "scope": "typescriptreact",
+    "prefix": "styled",
+    "body": [
+      "const ${1:Name}Styled = styled(${2:muiコンポーネント名})(({ theme }) => ({",
+      "$3",
+      "}))"
+    ],
+    "description": "mui styled の雛形"
+  },
+  "console.log()": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "cns",
+    "body": ["console.log($1)"],
+    "description": "ただの console.log"
+  }
+}
