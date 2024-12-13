@@ -30,8 +30,8 @@ const manifest = defineManifest({
 
   content_scripts: [
     {
-      matches: ['https://tiget.net/*'],
-      js: ['src/42intra/index.tsx'],
+      matches: ['https://projects.intra.42.fr/*'],
+      js: ['src/42projects/index.tsx'],
     },
   ],
 });

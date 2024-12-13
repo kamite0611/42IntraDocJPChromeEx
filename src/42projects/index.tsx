@@ -4,7 +4,7 @@ import { overrideConsoleLog } from '@/@common/utils/debug';
 
 window.console = overrideConsoleLog as Console;
 console.info('welcome to 42IntraDocJP 🎉');
-console.info('starting /src/42intra 💥');
+console.info('starting /src/42projects 💥');
 
 const root = createRoot(document.body.appendChild(document.createElement('div')));
 
